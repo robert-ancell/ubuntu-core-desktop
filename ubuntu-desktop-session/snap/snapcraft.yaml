@@ -24,6 +24,7 @@ apps:
   ubuntu-desktop-session:
     command: run-session.sh
     slots:
+      - gsettings
       - wayland
       - x11
 
