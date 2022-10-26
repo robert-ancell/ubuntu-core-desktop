@@ -39,8 +39,8 @@ jobs:
       - name: Checkout snapd
         uses: actions/checkout@v3
         with:
-          repository: jhenstridge/snapd
-          ref: desktop-mega-merge
+          repository: robert-ancell/snapd
+          ref: gsettings-slot
           path: snapd
       - name: Get snapd revision
         id: snapd-get-rev
