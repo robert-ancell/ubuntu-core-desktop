@@ -4,7 +4,7 @@ ALL_SNAPS = $(EXTRA_SNAPS) eog evince firefox gnome-calculator gnome-characters 
 
 all: pc.tar.gz
 
-pc.img: ubuntu-core-desktop-22-amd64.model $(EXTRA_SNAPS)
+pc.img: ubuntu-core-desktop-22-amd64-dangerous.model $(EXTRA_SNAPS)
 	rm -rf img/
 	ubuntu-image snap --output-dir img --image-size 12G \
 	  $(foreach snap,$(ALL_SNAPS),--snap $(snap)) $<
