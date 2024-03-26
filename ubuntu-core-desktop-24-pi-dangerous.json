@@ -3,13 +3,13 @@
     "authority-id": "canonical",
     "brand-id": "canonical",
     "series": "16",
-    "model": "ubuntu-core-desktop-22-pi-dangerous",
-    "display-name":"Ubuntu Core Desktop 22 (pi) (dangerous)",
+    "model": "ubuntu-core-desktop-24-pi-dangerous",
+    "display-name":"Ubuntu Core Desktop 24 (pi) (dangerous)",
     "architecture": "arm64",
     "revision": "0",
     "timestamp": "2023-11-10T08:27:01+00:00",
     "grade": "dangerous",
-    "base": "core22-desktop",
+    "base": "core24-desktop",
     "snaps": [
         {
             "name": "pi-desktop",
@@ -30,7 +30,7 @@
             "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
         },
         {
-            "name": "core22-desktop",
+            "name": "core24-desktop",
             "default-channel": "latest/stable",
             "type": "base",
             "id": "qRMmQqNDz8kRUTqFIgqk2RzNNoC7jUZ6"
@@ -42,7 +42,7 @@
             "id": "LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN"
         },
         {
-            "name": "core22",
+            "name": "core24",
             "default-channel": "latest/stable",
             "type": "base",
             "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
@@ -66,7 +66,7 @@
             "id": "jZLfBRzf1cYlYysIjD2bwSzNtngY0qit"
         },
         {
-            "name": "gnome-42-2204",
+            "name": "gnome-46-2404",
             "default-channel": "latest/stable",
             "type": "app",
             "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"

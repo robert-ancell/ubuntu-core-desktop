@@ -7,8 +7,8 @@ https://ubuntu.com/core/docs/reference/assertions/model
 
 We currently have two model definitions:
 
-* `ubuntu-core-desktop-22-amd64`
-* `ubuntu-core-desktop-22-amd64-dangerous`
+* `ubuntu-core-desktop-24-amd64`
+* `ubuntu-core-desktop-24-amd64-dangerous`
 
 They are identical except for the `grade` property: the regular model
 requires all snaps in the seed be signed and published by the store,

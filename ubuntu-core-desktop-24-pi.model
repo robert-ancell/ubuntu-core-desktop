@@ -2,11 +2,11 @@ type: model
 authority-id: canonical
 series: 16
 brand-id: canonical
-model: ubuntu-core-desktop-22-pi-dangerous
+model: ubuntu-core-desktop-24-pi
 architecture: arm64
-base: core22-desktop
-display-name: Ubuntu Core Desktop 22 (pi) (dangerous)
-grade: dangerous
+base: core24-desktop
+display-name: Ubuntu Core Desktop 24 (pi)
+grade: signed
 snaps:
   -
     default-channel: latest/stable
@@ -26,7 +26,7 @@ snaps:
   -
     default-channel: latest/stable
     id: qRMmQqNDz8kRUTqFIgqk2RzNNoC7jUZ6
-    name: core22-desktop
+    name: core24-desktop
     type: base
   -
     default-channel: latest/stable
@@ -36,7 +36,7 @@ snaps:
   -
     default-channel: latest/stable
     id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
-    name: core22
+    name: core24
     type: base
   -
     default-channel: 22/stable
@@ -56,7 +56,7 @@ snaps:
   -
     default-channel: latest/stable
     id: lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3
-    name: gnome-42-2204
+    name: gnome-46-2404
     type: app
   -
     default-channel: latest/stable
@@ -173,13 +173,13 @@ snaps:
 timestamp: 2023-11-10T08:27:01+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZU4WgQAKCRDgT5vottzAEsKtD/0ZF6kq0kVrfvNdLSuuJEJ8xn7oA/+XFBJu
-5hB5VapJObs0/t+OlGeh6yI6n0diqU0EhHofw9bDljpbEbdbIBzC+7v4jvhagbn1+mfhk28OHwDT
-HntoOFyWrUl+mKob8acOhUCg6bdOp7IJ9dbAbJ1EROFefVgreiIYqlxYey0RA3faaeVT4JJjVCto
-Qe1XHGcDz1AxErjI6l7JwPIVlbMB/T6kvbt8qvijh+yz1LkYktpNMly8f0F8z/D+wes/3pUIoLJ+
-Yz9+FoqtnxrdM9mAK9H6b/+ortRM2OU+1o5l5wG5hCET3I3YXTyr5oWjglw7x6ZPE2PBeVZlvOGS
-J3qkynj/fjPsIpsQvBcMpoShoDYV/s5D8rV3vQ84hEJR4y2fXBb58ifUQfvhASdDa1FDQ0o9/5wG
-C+GGV1XEAuEobdFrANPNoVXgCbDITjv+GBfWEEBzfIVXDgdVoGUQm8A41JPAJj4gdL64dkdlHJQS
-ceOma9WtOdBzpP3ZmCZhliGnlsUV7sxh+dOFbX5Bt/t57rQUPUNfUF1m2rquWnwj6Mh4JxwYcc0o
-OYk91f1rU21zFwitgrkhpNOsTLgRoLiY6x2MvSV+qwvl0l+HwGGmm7RjAKnCyHBqOxrhomzvOIkK
-DzOrzWVsTatb96tvWtzhPVKVi4jQY9cRpcxk5VqSAA==
+AcLBXAQAAQoABgUCZU4WgQAKCRDgT5vottzAEs1pEACUtB7pLOwEGv7y9p75cPFXeKrSfGJ4L77R
+Ab5liQYDWY26r/rkLXBnH+xhsCJTPOz07MzHTSzWUZ63Jkbt2VpWr3LSQXh1oeEzvCnb4w0IqZaN
+ejsMr6rWwbOF2FvifOxCNHHELKFKmkkqBu47f/KwmRwuDeXFENI6fGWnEIH70VEsglH6KPyXChpk
+zPsDsvBrURZcpFxrl+Yt9j5AwQ+vvCZC6jMREQUu2mxlXmFxprlLZJI2uTm65Ci8Y+X+fgRfUpXD
+VDOJZHrcKVMAItu+rERmIq0/F9q/SGOIJnsxhqLeGqWJzguEdJKV7FuBDOXkEiq4TyjB5ytuXYIJ
+gVjs8X7V3l3o8Izj33XScd4VsPuTX0IIZR/A7fG70ciAOS+OCW0uiBWUEIv4Y/TKs9nmOGJ9HKPW
+qQJZHTuQTPblUyPp6dJIB5vfFPVIcAY45cHtxxL/WA5ZDRaqHHHCBhBIvNyC5lyVeFm9l8V5W1Vx
+/dMno2pHln2djhfh0zEnIAJLX80CyLY6iK6MkbGkdEGYgt8KURqsA4dqFegB1T3k9oeFR2ox4ElP
+ITGJxIgY4nzETvHWat7yDY3NWdsUkoHv0GZwwkg0nHjiiX2Q3k+1Lv9uM6uivf+r9DsKPplQC2fg
+An3ky5k3/8My0lCJhIIalGMSJaxKhVe5Uh2gP2IZlw==

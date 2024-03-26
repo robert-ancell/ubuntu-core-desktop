@@ -3,27 +3,26 @@
     "authority-id": "canonical",
     "brand-id": "canonical",
     "series": "16",
-    "model": "ubuntu-core-desktop-22-amd64",
-    "display-name":"Ubuntu Core Desktop 22 (amd64)",
-    "architecture": "amd64",
-    "revision": "5",
-    "timestamp": "2023-10-21T10:19:41+00:00",
+    "model": "ubuntu-core-desktop-24-pi",
+    "display-name":"Ubuntu Core Desktop 24 (pi)",
+    "architecture": "arm64",
+    "revision": "0",
+    "timestamp": "2023-11-10T08:27:01+00:00",
     "grade": "signed",
-    "storage-safety": "prefer-encrypted",
-    "base": "core22-desktop",
+    "base": "core24-desktop",
     "snaps": [
         {
-            "name": "pc-desktop",
-            "default-channel": "22/stable",
+            "name": "pi-desktop",
+            "default-channel": "latest/stable",
             "type": "gadget",
-            "id": "mZqHskGgGDECRCKP7h7ef3Rl2wTwyNfy"
+            "id": "5eZJDHK8okhU9bQ6Hwih0pZOJPHSxQBH"
         },
         {
-            "name": "pc-kernel",
-            "default-channel": "23.10/stable",
+            "name": "pi-kernel",
             "type": "kernel",
-            "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
-        },
+            "default-channel": "22/stable",
+            "id": "jeIuP6tfFrvAdic8DMWqHmoaoukAPNbJ"
+        },   	
         {
             "name": "snapd",
             "default-channel": "latest/edge/ubuntu-core-desktop",
@@ -31,7 +30,7 @@
             "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
         },
         {
-            "name": "core22-desktop",
+            "name": "core24-desktop",
             "default-channel": "latest/stable",
             "type": "base",
             "id": "qRMmQqNDz8kRUTqFIgqk2RzNNoC7jUZ6"
@@ -43,14 +42,14 @@
             "id": "LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN"
         },
         {
-            "name": "core22",
+            "name": "core24",
             "default-channel": "latest/stable",
             "type": "base",
             "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
         },
         {
             "name": "network-manager",
-            "default-channel": "22/stable",
+            "default-channel": "24/stable",
             "type": "app",
             "id": "RmBXKl6HO6YOC2DE4G2q1JzWImC04EUy"
         },
@@ -67,7 +66,7 @@
             "id": "jZLfBRzf1cYlYysIjD2bwSzNtngY0qit"
         },
         {
-            "name": "gnome-42-2204",
+            "name": "gnome-46-2404",
             "default-channel": "latest/stable",
             "type": "app",
             "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"

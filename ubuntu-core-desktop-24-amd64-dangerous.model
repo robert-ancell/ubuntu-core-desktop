@@ -3,11 +3,11 @@ authority-id: canonical
 revision: 5
 series: 16
 brand-id: canonical
-model: ubuntu-core-desktop-22-amd64
+model: ubuntu-core-desktop-24-amd64-dangerous
 architecture: amd64
-base: core22-desktop
-display-name: Ubuntu Core Desktop 22 (amd64)
-grade: signed
+base: core24-desktop
+display-name: Ubuntu Core Desktop 24 (amd64) (dangerous)
+grade: dangerous
 snaps:
   -
     default-channel: 22/stable
@@ -27,7 +27,7 @@ snaps:
   -
     default-channel: latest/stable
     id: qRMmQqNDz8kRUTqFIgqk2RzNNoC7jUZ6
-    name: core22-desktop
+    name: core24-desktop
     type: base
   -
     default-channel: latest/stable
@@ -37,7 +37,7 @@ snaps:
   -
     default-channel: latest/stable
     id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
-    name: core22
+    name: core24
     type: base
   -
     default-channel: 22/stable
@@ -57,7 +57,7 @@ snaps:
   -
     default-channel: latest/stable
     id: lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3
-    name: gnome-42-2204
+    name: gnome-46-2404
     type: app
   -
     default-channel: latest/stable
@@ -175,13 +175,13 @@ storage-safety: prefer-encrypted
 timestamp: 2023-10-21T10:19:41+00:00
 sign-key-sha3-384: 9tydnLa6MTJ-jaQTFUXEwHl1yRx7ZS4K5cyFDhYDcPzhS7uyEkDxdUjg9g08BtNn
 
-AcLBXAQAAQoABgUCZTP+wgAKCRDgT5vottzAEia0D/9FyEOb4Qai+sJQ/ilVqZ1L0FicTIwa9/Ae
-khv5xXYGmukSzkIUGNYjvcCJByxgMiDsFOIIzrOYlJPmRFtdFOwm3KGS2JGthIUbQfElVbyPswZh
-cgqYVuGMiRw8udlZHOmy2rWIKxo/uLMEsZzZuk83nC+ZzAoQoHOmcELuRtIc1qz9XAf6n7pd79S2
-10cxG7vuaA1iVbqqtbSlQCAdKTdOCxw2/NHTZ8mIRtAQZGA1LP8IMEyv2Fi3FVpmN2derV78sO3f
-kCf/KdYeD6d1a03WchIDsuPlvTpTOU3TSX07QWj+WrZHMDh9gpQHDdSIWswBCPIHa10R6aDRRUUK
-/5dJDq77/CyY/Q/ivcAuFiTceghKVcx3Zci+VX2WgvLK9qYHYHSilb70nTvsDFUA/bKep57/xqeG
-j03cvUaqHb6li2T2SmyzaQOGV5MF6XxlhcLWY19PHc2/ocLpukL4vxkl18Ur3FoYAOLODwrlxueS
-FDu7u+qf+Ki2+f0ZtN70EPcFAQAJ4C0N6f9j9Z+9BQptTlVwrIzIUxIwxtkp27YvERno6bZPBRYs
-T4YdzVSdPKXsItT/GUiqYwdgPTi61FZXTN/47yIaHZLUwMT9gg/9XgNqIHKIdFHxm6GWVxL0AqOp
-JPIfqrsmVbewevzwV1Rgo1LbPKVVrjqPtW0QQlkS8w==
+AcLBXAQAAQoABgUCZTP+wgAKCRDgT5vottzAEjbeD/9JYnSaSKUUMFhcLTQgQso1GiJkcjVPHcFr
+1ENiu8AKoGrjEeqAu3KO4n0M3rAZkgwJEz7B83AsFZELYuligJ9riJDMMw6UzTQNZQ1e1wnNbHdk
+MXhLY2U2mwq2yZHm8fnZ+QEM9IhyDwj+KeuUgFnVsQGAhtulHlgIhf8e6mY8AOK+wWp+pK9i2+g7
+Kx8tFvvzGzdtJgC8IoLV7LliOI0y88yug4QV3vIkRSi4gWqbI+hMQSjlD04wHXgzxJ4Brz7kQwY7
+fsu03cQp+8WImWvXU+MJSCrpmajphgmD/po/LjbIHtoaiL5iu+W4EjDRQSmY1i4mFE8bfrHpHFD8
+rAE/hn4jnj6isrUWuqEIjDGA0Uu7K5wIYxOa/hQJqIFq9leplYRf6U3sruCLIk90JAEtFKnu/RsP
+gfuDYqmPzRf1NiTtIB25Tpt37cNX/I4vkSZoJSRYZ5DtA11ydv3djNKU+6NGOggnp7+9fgfT8jy0
+QbN9zGvXvXN1dQ8KoFwMyj8NwLZ6yoB6MrxbxztII22JeZjz9Bikvt+Mf6bjkN7Kgy1aqbdEHTVp
+1k7mpgRS8Eqx2KO4WId8zDlCU9+AyAhRgDorlr2SjURR8hrzvbaVVm+FDesvoj9o3axVvyXdRuad
+LHyZ0L837/PLrLhFDvayB1ik4U5U67m3Re49zlUXjQ==

@@ -1,6 +1,6 @@
 # GDM on Ubuntu Core
 
-This directory contains an image of Ubuntu Core 22 with the GDM
+This directory contains an image of Ubuntu Core 24 with the GDM
 display manager loaded into the boot file system.  It can be launched
 in a Qemu virtual machine by following these instructions:
 
@@ -12,7 +12,7 @@ in a Qemu virtual machine by following these instructions:
     # Delete VM if already registered
     virsh --connect qemu:///session undefine --nvram core-desktop
     virt-install --connect qemu:///session --name core-desktop \
-      --memory 2048 --vcpus 2 --boot uefi --os-variant ubuntu22.04 \
+      --memory 2048 --vcpus 2 --boot uefi --os-variant ubuntu24.04 \
       --video virtio,accel3d=no --graphics spice \
       --import --disk path=$(pwd)/pc.img,format=raw
     ```
@@ -50,10 +50,10 @@ repositories. Namely:
 
 | Snap | Repo | Recipe | Notes |
 | ---- | ---- | ------ | ----- |
-| `core22-desktop` | [core-base-desktop](https://github.com/canonical/core-base-desktop) | [via launchpad](https://launchpad.net/~ubuntu-desktop/+snap/core22-desktop) | base snap, forked from `core22` to integrate GDM graphical login |
-| `pc-desktop` | [pc-amd64-gadget-desktop](https://github.com/canonical/pc-amd64-gadget-desktop) | [via launchpad](https://launchpad.net/~ubuntu-desktop/pc-gadget-desktop/+snap/pc-amd64-gadget-desktop-core22) | gadget snap, forked from `pc`, using `core22-desktop` as a base |
-| `pi-desktop` | [pi-desktop](https://github.com/canonical/pi-desktop) | [via launchpad](https://launchpad.net/~desktop-snappers/+snap/pi-desktop) | Pi gadget snap, forked from `pi`, using `core22-desktop` as a base |
-| `ubuntu-desktop-session` | [ubuntu-desktop-session-snap](https://github.com/canonical/ubuntu-desktop-session-snap) | [via launchpad](https://launchpad.net/~ubuntu-desktop/+snap/ubuntu-desktop-session-snap-core22) | provides the confined desktop session |
+| `core24-desktop` | [core-base-desktop](https://github.com/canonical/core-base-desktop) | [via launchpad](https://launchpad.net/~ubuntu-desktop/+snap/core24-desktop) | base snap, forked from `core24` to integrate GDM graphical login |
+| `pc-desktop` | [pc-amd64-gadget-desktop](https://github.com/canonical/pc-amd64-gadget-desktop) | [via launchpad](https://launchpad.net/~ubuntu-desktop/pc-gadget-desktop/+snap/pc-amd64-gadget-desktop-core24) | gadget snap, forked from `pc`, using `core24-desktop` as a base |
+| `pi-desktop` | [pi-desktop](https://github.com/canonical/pi-desktop) | [via launchpad](https://launchpad.net/~desktop-snappers/+snap/pi-desktop) | Pi gadget snap, forked from `pi`, using `core24-desktop` as a base |
+| `ubuntu-desktop-session` | [ubuntu-desktop-session-snap](https://github.com/canonical/ubuntu-desktop-session-snap) | [via launchpad](https://launchpad.net/~ubuntu-desktop/+snap/ubuntu-desktop-session-snap-core42) | provides the confined desktop session |
 | `snapd` | [ubuntu-core-desktop-snapd](https://github.com/canonical/ubuntu-core-desktop-snapd) | [via ~snappy-dev](https://launchpad.net/~snappy-dev/+snap/ubuntu-core-desktop-snapd) | a branch of snapd with additional changes not yet merged to mainline |
 
 In addition, the base snap uses packages from the [desktop-snappers
